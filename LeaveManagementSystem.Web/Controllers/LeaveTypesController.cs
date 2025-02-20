@@ -11,9 +11,11 @@ using AutoMapper;
 using NuGet.Protocol;
 using System.Xml.Linq;
 using LeaveManagementSystem.Web.Services;
+using LeaveManagementSystem.Web.Common;
 
 namespace LeaveManagementSystem.Web.Controllers
 {
+    [Authorize(Roles = Roles.Administrator)]
     public class LeaveTypesController(ILeaveTypesService _leaveTypesService) : Controller
     {
         private const string NameExistsValidationMessage = "This leave type already exists in the database";
