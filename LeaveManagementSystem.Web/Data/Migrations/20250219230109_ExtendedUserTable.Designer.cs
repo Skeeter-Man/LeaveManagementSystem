@@ -116,7 +116,7 @@ namespace LeaveManagementSystem.Web.Data.Migrations
                         });
                 });
 
-            modelBuilder.Entity("LeaveManagementSystem.Web.Data.LeaveType", b =>
+            modelBuilder.Entity("LeaveManagementSystem.Web.Data.LeaveTypes", b =>
                 {
                     b.Property<int>("LeaveTypeId")
                         .ValueGeneratedOnAdd()

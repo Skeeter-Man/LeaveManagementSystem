@@ -4,9 +4,9 @@ using LeaveManagementSystem.Web.ViewModels.LeaveTypes;
 
 namespace LeaveManagementSystem.Web.MappingProfiles
 {
-    public class AutoMapperProfile : Profile
+    public class LeaveTypeAutoMapperProfile : Profile
     {
-        public AutoMapperProfile()
+        public LeaveTypeAutoMapperProfile()
         {
             CreateMap<LeaveType, LeaveTypeReadOnlyVM>();
 

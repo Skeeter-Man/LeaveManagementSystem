@@ -20,7 +20,7 @@ namespace LeaveManagementSystem.Web.Data.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.13");
 
-            modelBuilder.Entity("LeaveManagementSystem.Web.Data.LeaveType", b =>
+            modelBuilder.Entity("LeaveManagementSystem.Web.Data.LeaveTypes", b =>
                 {
                     b.Property<int>("LeaveTypeId")
                         .ValueGeneratedOnAdd()
